@@ -1,0 +1,45 @@
+.on{
+  color: red;
+  text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5),
+      0 0 20px #a1a1a1,
+      0 0 100px #ce4e4e,
+      0 0 150px red,
+      0 0 300px #3b0c0c;
+      animation: flicker1 1s linear 0s infinite;
+}
+
+@keyframes flicker1{
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  79% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  84% {
+    opacity: 0;
+  }
+  85% {
+    opacity: 1;
+  }
+  89% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
