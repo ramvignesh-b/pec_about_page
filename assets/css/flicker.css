@@ -1,10 +1,6 @@
 .on{
   color: red;
-  text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5),
-      0 0 20px #a1a1a1,
-      0 0 100px #ce4e4e,
-      0 0 150px red,
-      0 0 300px #3b0c0c;
+  text-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5),0 0 20px #3d0e0e,0 0 100px #832020,0 0 150px red,0 0 300px #3b0c0c;
       animation: flicker1 1s linear 0s infinite;
 }
 

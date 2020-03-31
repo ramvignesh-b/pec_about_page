@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="assets/css/flicker.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
-
+  <link rel="stylesheet" href="assets/css/card.css">
 </head>
 
 <body id="html1">
@@ -64,7 +64,7 @@
   </section>
   <section style="filter: blur(0px);">
     <h1 class="text-center flicker" data-bs-hover-animate="bounce"
-      style="z-index: -10;position: absolute;top: -5%;width: 100%;font-size: 77px;color: rgb(202,206,210);font-family: Oswald, sans-serif;" >
+      style="z-index: -10;position: absolute;top: -5%;width: 100%;font-size: 77px;color: rgb(202,206,210);font-family: Oswald, sans-serif;">
       VERSION 1.0.0</h1>
     <section data-aos="fade" data-aos-duration="250" data-aos-delay="50" style="z-index:0;">
       <h1 class="text-center d-xl-flex justify-content-xl-center align-items-xl-center"
@@ -75,7 +75,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-md-4">
-                <div class="card-container-imagia">
+                <div class="card-container-imagia" onmouseover="dark()" onmouseout="light()">
                   <div class="card-imagia">
                     <div class="front-imagia">
                       <div class="cover-imagia cover-gradient"></div>
@@ -90,29 +90,29 @@
                       </div>
                       <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                     </div>
-                    <div class="back-imagia">
+                    <div class="back-imagia" style="background-image: url('assets/img/left.png');">
                       <div class="content-imagia content-back-imagia">
                         <div>
-                          <h3 class="text-center">Lorem Ipsum</h3>
+                          <!--  <h3 class="text-center">Lorem Ipsum</h3>
                           <p class="text-center">Et hanc quidem praeter oppida multa duae civitates exornant Seleucia
                             opus Seleuci regis, et Claudiopolis quam deduxit coloniam Claudius Caesar. Isaura enim
                             antehac nimium potens, olim subversa ut rebellatrix
-                            interneciva aegre vestigia claritudinis pristinae monstrat admodum pauca. </p>
+                            interneciva aegre vestigia claritudinis pristinae monstrat admodum pauca. </p> -->
                         </div>
                       </div>
                       <div class="footer-imagia">
-                        <div class="social-imagia text-center"><a href="#"><i class="fa fa-facebook"></i></a><a
+                        <!-- <div class="social-imagia text-center"><a href="#"><i class="fa fa-facebook"></i></a><a
                             href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4" >
-                <div class="card-container-imagia"onmouseover="dark()" onmouseout="light()">
-                  <div class="card-imagia" >
-                    <div class="front-imagia" >
+              <div class="col-sm-6 col-md-4">
+                <div class="card-container-imagia" onmouseover="dark()" onmouseout="light()">
+                  <div class="card-imagia">
+                    <div class="front-imagia">
                       <div class="cover-imagia cover-gradient"></div>
                       <div class="user-imagia"><img class="img-circle" alt=""
                           src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwatershed.co.uk%2Fengage%2Fwp-content%2Fuploads%2F2010%2F08%2Fblank-profile.jpg&amp;f=1&amp;nofb=1">
@@ -125,27 +125,27 @@
                       </div>
                       <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                     </div>
-                    <div class="back-imagia">
+                    <div class="back-imagia" style="background-image: url('assets/img/middle.png');">
                       <div class="content-imagia content-back-imagia">
                         <div>
-                          <h3 class="text-center">Lorem Ipsum</h3>
+                          <!--  <h3 class="text-center">Lorem Ipsum</h3>
                           <p class="text-center">Et hanc quidem praeter oppida multa duae civitates exornant Seleucia
                             opus Seleuci regis, et Claudiopolis quam deduxit coloniam Claudius Caesar. Isaura enim
                             antehac nimium potens, olim subversa ut rebellatrix
-                            interneciva aegre vestigia claritudinis pristinae monstrat admodum pauca. </p>
+                            interneciva aegre vestigia claritudinis pristinae monstrat admodum pauca. </p> -->
                         </div>
                       </div>
                       <div class="footer-imagia">
-                        <div class="social-imagia text-center"><a href="#"><i class="fa fa-facebook"></i></a><a
+                        <!-- <div class="social-imagia text-center"><a href="#"><i class="fa fa-facebook"></i></a><a
                             href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4">
-                <div class="card-container-imagia">
+                <div class="card-container-imagia" onmouseover="dark()" onmouseout="light()">
                   <div class="card-imagia">
                     <div class="front-imagia">
                       <div class="cover-imagia cover-gradient"></div>
@@ -160,20 +160,20 @@
                       </div>
                       <div class="footer-imagia"><span><i class="fa fa-plus"></i> More info</span></div>
                     </div>
-                    <div class="back-imagia">
+                    <div class="back-imagia" style="background-image: url('assets/img/right.png');">
                       <div class="content-imagia content-back-imagia">
                         <div>
-                          <h3 class="text-center">Lorem Ipsum</h3>
+                          <!-- <h3 class="text-center">Lorem Ipsum</h3>
                           <p class="text-center">Et hanc quidem praeter oppida multa duae civitates exornant Seleucia
                             opus Seleuci regis, et Claudiopolis quam deduxit coloniam Claudius Caesar. Isaura enim
                             antehac nimium potens, olim subversa ut rebellatrix
-                            interneciva aegre vestigia claritudinis pristinae monstrat admodum pauca. </p>
+                            interneciva aegre vestigia claritudinis pristinae monstrat admodum pauca. </p> -->
                         </div>
                       </div>
                       <div class="footer-imagia">
-                        <div class="social-imagia text-center"><a href="#"><i class="fa fa-facebook"></i></a><a
+                        <!--  <div class="social-imagia text-center"><a href="#"><i class="fa fa-facebook"></i></a><a
                             href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-twitter"></i></a>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>
@@ -224,25 +224,38 @@
         style="font-family: Oswald, sans-serif;margin-right: 15px;margin-left: 15px;color: rgb(255,255,255);background-color: rgba(0,0,0,0.28); text-shadow: 1px 1px 3px black;">
         Batch of 2020</h4>
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="our-team" style="background-image:url('assets/img/bg.png'); background-size: cover ">
-              <div class="picture">
-                <img class="img-fluid"
-                  src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwatershed.co.uk%2Fengage%2Fwp-content%2Fuploads%2F2010%2F08%2Fblank-profile.jpg&f=1&nofb=1">
+        <div class="row cards-container">
+          <div class="card-container">
+            <div class="card">
+              <div class="front">
+                <div class="">
+                  <div class="our-team" style="background-image:url('assets/img/bg.png'); background-size:contain ">
+                    <div class="picture">
+                      <img class="img-fluid"
+                        src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwatershed.co.uk%2Fengage%2Fwp-content%2Fuploads%2F2010%2F08%2Fblank-profile.jpg&f=1&nofb=1">
+                    </div>
+                    <div class="team-content">
+                      <h3 class="name">Rupam Chirom</h3>
+                      <h4 class="title">Scrum Master
+                      </h4>
+                    </div>
+                    <ul class="social">
+                      <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a>
+                      </li>
+                      <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a>
+                      </li>
+                      <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus"
+                          aria-hidden="true"></a>
+                      </li>
+                      <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <div class="team-content">
-                <h3 class="name">Rupam Chirom</h3>
-                <h4 class="title">Scrum Master
-                </h4>
+              <div class="back" style="background-image: url(assets/img/royal-flush.jpg);background-size: cover;">
+                <img src="assets/img/royal-flush.jpg" width="240px" height="350px"/>
               </div>
-              <ul class="social">
-                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-facebook" aria-hidden="true"></a></li>
-                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-twitter" aria-hidden="true"></a></li>
-                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-google-plus" aria-hidden="true"></a>
-                </li>
-                <li><a href="https://codepen.io/collection/XdWJOQ/" class="fa fa-linkedin" aria-hidden="true"></a></li>
-              </ul>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -730,13 +743,9 @@
       </div>
     </div>
   </section>
-  <section class="text-center d-xl-flex justify-content-xl-center"
-    style="padding: 0px;padding-top: 147px; overflow:hidden"><img
-      class="d-xl-flex justify-content-xl-center align-items-xl-center" src="assets/img/dc1.png"
-      style="transform: scale(1.7); position: absolute; padding:500px 0 0 300px; overflow:hidden"></section>
+  
 
-
-      <!--Scripts-->
+  <!--Scripts-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
@@ -744,21 +753,21 @@
   <script src="assets/js/flicker.js"></script>
   <script>
     function dark() {
-      document.getElementById('html1').style.background ="black";
-      document.getElementById('html1').style.transition="background-color 1000ms linear";
+      document.getElementById('html1').style.background = "black";
+      document.getElementById('html1').style.transition = "background-color 1000ms linear";
       document.getElementsByClassName('flicker')[0].id = "text";
-      document.getElementById('text').style.color ="red";
-     document.getElementById('text').style.textShadow ="7px 7px 5px rgba(0, 0, 0, 0.5),0 0 20px #3d0e0e,0 0 100px #832020,0 0 50px red,0 0 30px #3b0c0c";
+      document.getElementById('text').style.color = "red";
+      document.getElementById('text').style.textShadow = "7px 7px 5px rgba(0, 0, 0, 0.5),0 0 20px #3d0e0e,0 0 100px #832020,0 0 50px red,0 0 30px #3b0c0c";
       document.getElementById('text').className += " on";
     }
     function light() {
       document.getElementById('html1').style.background = "white";
       document.getElementsByClassName('flicker')[0].id = "";
-      document.getElementsByClassName('flicker')[0].style.color ="rgb(202,206,210)";
-      document.getElementsByClassName('flicker')[0].style.textShadow ="none";
+      document.getElementsByClassName('flicker')[0].style.color = "rgb(202,206,210)";
+      document.getElementsByClassName('flicker')[0].style.textShadow = "none";
       /* document.getElementsByClassName('flicker')[0].style.animation = "none"; */
       document.getElementsByClassName('flicker')[0].className = "text-center flicker";
-      
+
     }
   </script>
 
