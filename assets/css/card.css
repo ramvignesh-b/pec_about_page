@@ -58,6 +58,18 @@
 }
 
 @media only screen and (max-width:800px){
+    .masthead{
+        height: 30vh !important;
+    }
+
+    .masthead-content{
+        padding-top: 80px !important;
+    }
+
+    .sect1{
+        height: 100vh !important;
+    }
+
     .box1{
         margin-top: 30px;
         margin: 0px;
