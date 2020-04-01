@@ -681,7 +681,7 @@ header.masthead {
   opacity: 0.5;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 0.35em;
 }
 
@@ -693,4 +693,19 @@ header.masthead {
   background-color: #707070;
   border-radius: 8px;
   outline: 1px solid #f8f8f8;
+} */
+
+::-webkit-scrollbar {
+  width: 0.35em;
+height: 0.35em;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2E8690;
+  border-radius: 8px;
+  outline: 1px solid #000000;
 }
