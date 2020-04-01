@@ -517,10 +517,10 @@ body {
 .card-imagia .user-imagia {
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.18);
   display: block;
-  height: 130px;
+  height: 180px;
   margin: -65px auto 0;
   overflow: hidden;
-  width: 120px;
+  width: 180px;
 }
 .card-imagia .user-imagia img {
   background: #fff;
