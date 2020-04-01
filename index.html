@@ -25,7 +25,7 @@
     <div class="masthead-content" style="padding: 0px;padding-top: 150px;">
       <div class="container">
         <h1 class="pulse animated masthead-heading mb-0"
-          style="filter: blur(0px) brightness(200%) contrast(200%) grayscale(0%) invert(0%) saturate(111%);">ABOUT SITE
+          style="font-family: Arial, Helvetica, sans-serif; text-shadow: 2px 2px 3px rgba(39, 42, 43, 0.62);">ABOUT SITE
         </h1>
       </div>
     </div>
@@ -77,7 +77,7 @@
                 <div class="card-container-imagia" onmouseover="dark()" onmouseout="light()">
                   <div class="card-imagia">
                     <div class="front-imagia">
-                      <div class="cover-imagia cover-gradient"></div>
+                      <div class="cover-imagia"><img src="assets/img/cover.jpg"/></div>
                       <div class="user-imagia"><img class="img-circle" alt="" src="assets/img/bs4_team_01.jpg" />
                       </div>
                       <div class="content-imagia">
@@ -111,7 +111,7 @@
                 <div class="card-container-imagia" onmouseover="dark()" onmouseout="light()">
                   <div class="card-imagia">
                     <div class="front-imagia">
-                      <div class="cover-imagia cover-gradient"></div>
+                      <div class="cover-imagia"><img src="assets/img/cover.jpg"/></div>
                       <div class="user-imagia"><img class="img-circle" alt="" src="assets/img/bs4_team_01.jpg" />
                       </div>
                       <div class="content-imagia">
@@ -145,7 +145,7 @@
                 <div class="card-container-imagia" onmouseover="dark()" onmouseout="light()">
                   <div class="card-imagia">
                     <div class="front-imagia">
-                      <div class="cover-imagia cover-gradient"></div>
+                      <div class="cover-imagia"><img src="assets/img/cover.jpg"/></div>
                       <div class="user-imagia"><img class="img-circle" alt="" src="assets/img/bs4_team_01.jpg" />
                       </div>
                       <div class="content-imagia">
@@ -728,16 +728,16 @@
   <!--particles-->
   <div class="area" style="z-index: -1;">
     <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li class="velo" id="cir1"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
     </ul>
 </div >
 
@@ -759,6 +759,10 @@
       for(item in items){
         items[item].style.color="#f1f1f1";
       }
+      var items1= document.getElementsByClassName('velo');
+      for(item in items1){
+        items1[item].style.animation = "animate 2s linear infinite;"
+      }
     }
     function light() {
       document.getElementById('html1').style.background = "transparent";
@@ -770,6 +774,10 @@
       var items= document.getElementsByClassName('title1');
       for(item in items){
         items[item].style.color="#010101";
+      }
+      var items1= document.getElementsByClassName('velo');
+      for(item in items1){
+        items1[item].style.animation = "animate 25s linear infinite;"
       }
     }
   </script>
