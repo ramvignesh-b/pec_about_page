@@ -31,7 +31,16 @@ body {
   height: 100%;
   overflow: hidden;
 }
-.circles li {
+.circles2 li {
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(46, 134, 144, 0.8);
+  animation: animate 2s linear infinite;
+  bottom: -150px;
+}
+.circles1 li {
   display: block;
   list-style: none;
   width: 20px;

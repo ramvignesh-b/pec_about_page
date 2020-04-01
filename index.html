@@ -15,6 +15,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
   <link rel="stylesheet" href="assets/css/card.css">
+  <style>
+    @keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0);
+    opacity: 1;
+    border-radius: 0;
+  }
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+  </style>
 </head>
 
 <body id="html1" style="background: transparent;">
@@ -727,8 +741,11 @@
   
   <!--particles-->
   <div class="area" style="z-index: -1;">
-    <ul class="circles">
-            <li class="velo" id="cir1"></li>
+    <ul class="circles circles1" id="float1">
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
+            <li class="velo"></li>
             <li class="velo"></li>
             <li class="velo"></li>
             <li class="velo"></li>
@@ -756,13 +773,11 @@
       document.getElementById('text').style.textShadow = "7px 7px 5px rgba(0, 0, 0, 0.5),0 0 20px #3d0e0e,0 0 100px #832020,0 0 50px red,0 0 30px #3b0c0c";
       document.getElementById('text').className += " on";
       var items= document.getElementsByClassName('title1');
-      for(item in items){
-        items[item].style.color="#f1f1f1";
+      document.getElementById('float1').className = "circles circles2";
+      for(var i=0; i<items.length; i++){
+        items[i].style.color="#f1f1f1";
       }
-      var items1= document.getElementsByClassName('velo');
-      for(item in items1){
-        items1[item].style.animation = "animate 2s linear infinite;"
-      }
+      
     }
     function light() {
       document.getElementById('html1').style.background = "transparent";
@@ -772,13 +787,10 @@
       /* document.getElementsByClassName('flicker')[0].style.animation = "none"; */
       document.getElementsByClassName('flicker')[0].className = "text-center flicker";
       var items= document.getElementsByClassName('title1');
-      for(item in items){
-        items[item].style.color="#010101";
+      for(var i=0; i<items.length; i++){
+        items[i].style.color="#010101";
       }
-      var items1= document.getElementsByClassName('velo');
-      for(item in items1){
-        items1[item].style.animation = "animate 25s linear infinite;"
-      }
+      document.getElementById('float1').className = "circles circles1";
     }
   </script>
 
