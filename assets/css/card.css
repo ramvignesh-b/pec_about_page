@@ -49,7 +49,7 @@
 }
 
 .front, .back {
-  box-shadow: 0 1px 6px 0;
+  box-shadow: 0 1px 6px 0 black;
   position: absolute;
   width: 240px;
     height: 250px;
