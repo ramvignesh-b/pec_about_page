@@ -12,6 +12,7 @@ function flickerPauses(){
 
 function flicker() {
   $("#text").toggleClass('on');
+  $("#core1").toggleClass('on1');
   setTimeout(flicker, flickerPauses());
 }
 
