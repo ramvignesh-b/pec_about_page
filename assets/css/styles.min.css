@@ -607,6 +607,9 @@ header.masthead {
   background-attachment: scroll;
   background-size: cover;
 }
+.masthead-content{
+  padding-top: calc(7rem);
+}
 .draw {
   transition: color 0.25s;
 }
